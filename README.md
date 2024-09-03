@@ -23,3 +23,10 @@ In order to get the data:
 => https://www.federalregister.gov/api/v1/documents/?conditions[topics]=xxxxx&format=json (GET) 
 2. Pass the topic from your API into the "conditions[topics]".
 3. When you are successfully getting the response, need to return only matched required publication_date. There is a parameter to search range of publication date but this test would like to see how you solve it.
+
+Sample of topic:
+1. air-pollution-control
+2. agricultural-commodities
+3. food-additives
+4. chemicals
+   
