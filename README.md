@@ -30,3 +30,4 @@ Sample of topic:
 3. food-additives
 4. chemicals
    
+* For testing you can pass the publication date value (mm/dd/yyyy) to "conditions[publication_date][gte]" and "conditions[publication_date][lte]" of the govenment regulation API. 
