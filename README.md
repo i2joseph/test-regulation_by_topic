@@ -22,12 +22,10 @@ In order to get the data:
 1. You need to hit this government regulation provider which is 
 => https://www.federalregister.gov/api/v1/documents/?conditions[topics]=xxxxx&format=json (GET) 
 2. Pass the topic from your API into the "conditions[topics]".
-3. When you are successfully getting the response, need to return only matched required publication_date. There is a parameter to search range of publication date but this test would like to see how you solve it.
+3. Prohibited to pass the publication_date value into the API parameters: "conditions[publication_date][gte]" and "conditions[publication_date][lte]". Use for double checking the result.
 
 Sample of topic:
 1. air-pollution-control
 2. agricultural-commodities
 3. food-additives
 4. chemicals
-   
-* For testing you can pass the publication date value (mm/dd/yyyy) to "conditions[publication_date][gte]" and "conditions[publication_date][lte]" of the govenment regulation API. 
